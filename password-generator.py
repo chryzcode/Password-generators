@@ -3,11 +3,10 @@ print('\nI can assist you in generating a password!')
 
 char = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
-number = input('\nInput the number of password you need: ')
-number = int(number)
+number = int(input('\nInput the number of password you need: '))
 
-length = input('Input the length of your proposed password: ')
-length = int(length)
+
+length = int(input('Input the length of your proposed password: '))
 
 print('\nHere are your proposed password: ')
 
